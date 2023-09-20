@@ -1,0 +1,255 @@
+/* Styly pro celou stránku */
+body {
+    background-color: white; /* Bílé pozadí */
+    margin: 0;
+    padding: 0;
+    border: 2px solid black; /* Černý rámec kolem stránky */
+}
+
+/* Styly pro horní lištu */
+.header {
+    background-color: black; /* Černé pozadí */
+    color: white; /* Bílé písmo */
+    text-align: left; /* Zarovnání textu vlevo */
+    padding: 10px;
+    display: flex; /* Názvy vedle sebe */
+}
+
+.header h1 {
+    font-size: 18px; /* Velikost písma pro název "PojištěníApp" */
+    margin: 0; /* Odstranění mezery kolem názvu */
+    padding-right: 20px; /* Odsazení mezi názvem "PojištěníApp" a dalšími názvy */
+}
+
+/* Styly pro názvy Pojištění a Aplikace */
+.header a {
+    font-size: 18px;
+    color: #999; /* Světle šedá barva */
+    text-decoration: none;
+    margin-right: 20px; /* Odsazení mezi názvy */
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+
+/* Styly pro název tabulky "Pojištěnci" */
+.table-title {
+    font-size: 24px;
+    font-weight: bold; /* Tučné písmo */
+    margin-bottom: 10px;
+    margin-left: 20px; /* Přidáno pro posunutí textu doleva */
+}
+
+/* Styly pro tabulku s Pojištěnci */
+.table-container {
+    margin-top: 20px;
+    margin-left: 2cm; /* Posunutí tabulky o 2 cm od okraje */
+    text-align: left; /* Zarovnání textu doleva */
+    background-color: white; /* Bílé pozadí tabulky */
+    width: calc(100% - 4cm); /* Celková šířka tabulky - 4 cm */
+    padding: 10px;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white; /* Bílé pozadí tabulky */
+    border: 2px solid black; /* Černý rámec tabulky */
+}
+
+.table-container th, .table-container td {
+    border: 1px solid black; /* Černé rámce buněk */
+    padding: 10px;
+}
+
+.table-container th {
+    background-color: white; /* Černá barva pro pozadí hlavičky tabulky */
+    color: black; /* Bílé písmo pro hlavičku tabulky */
+    font-size: 16px; /* Velikost písma */
+    font-weight: bold; /* Tučné písmo */
+}
+
+/* Styly pro řádky s daty v tabulce */
+.table-container td {
+    font-size: 14px; /* Velikost písma pro data */
+}
+
+/* Zobrazit prázdné řádky v tabulce */
+.table-container tr:empty {
+    display: table-row;
+}
+
+/* Styly pro blok s formulářem pro nového pojištěnce */
+.new-insured {
+    margin-top: 20px;
+    margin-left: 2cm; /* Posunutí formuláře o 2 cm od levého okraje */
+    width: calc(100% - 4cm); /* Šířka formuláře - odečtení 4 cm od celkové šířky okna prohlížeče */
+    text-align: left;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px; /* Zmenšení výšky pro lepší zarovnání */
+    box-sizing: border-box;
+    overflow: hidden; /* Řeší problémy s float */
+    display: flex; /* Použijeme flexbox pro zarovnání vnitřních prvků */
+    flex-direction: column; /* Prvky pod sebou */
+}
+
+.form-title {
+    margin: 0;
+    width: auto; /* Šířka pro nadpis "Nový pojištěnec" byla změněna na auto */
+}
+
+/* Styly pro blok s formulářem pro nového pojištěnce */
+.new-insured {
+    margin-top: 20px;
+    margin-left: 2cm; /* Posunutí formuláře o 2 cm od levého okraje */
+    width: calc(100% - 4cm); /* Šířka formuláře - odečtení 4 cm od celkové šířky okna prohlížeče */
+    text-align: left;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px; /* Zmenšení výšky pro lepší zarovnání */
+    box-sizing: border-box;
+    overflow: hidden; /* Řeší problémy s float */
+    display: flex; /* Použijeme flexbox pro zarovnání vnitřních prvků */
+    flex-direction: column; /* Prvky pod sebou */
+    align-items: flex-start; /* Zarovnání prvků vlevo */
+}
+
+.form-title {
+    margin: 0;
+    width: 100%; /* Šířka pro nadpis "Nový pojištěnec" */
+}
+
+/* Styly pro blok s formulářem pro nového pojištěnce */
+.new-insured {
+    margin-top: 20px;
+    margin-left: 2cm; /* Posunutí formuláře o 2 cm od levého okraje */
+    width: calc(100% - 4cm); /* Šířka formuláře - odečtení 4 cm od celkové šířky okna prohlížeče */
+    text-align: left;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px; /* Zmenšení výšky pro lepší zarovnání */
+    box-sizing: border-box;
+    overflow: hidden; /* Řeší problémy s float */
+    display: flex; /* Použijeme flexbox pro zarovnání vnitřních prvků */
+    flex-direction: column; /* Prvky pod sebou */
+}
+
+.form-title {
+    margin: 0;
+    width: 100%; /* Šířka pro nadpis "Nový pojištěnec" */
+}
+
+/* Styly pro blok s formulářem pro nového pojištěnce */
+.new-insured {
+    margin-top: 20px;
+    margin-left: 2cm; /* Posunutí formuláře o 2 cm od levého okraje */
+    width: calc(100% - 4cm); /* Šířka formuláře - odečtení 4 cm od celkové šířky okna prohlížeče */
+    background-color: white;
+    padding: 10px; /* Zmenšení výšky pro lepší zarovnání */
+    box-sizing: border-box;
+    overflow: hidden; /* Řeší problémy s float */
+    display: flex; /* Použijeme flexbox pro zarovnání vnitřních prvků */
+    flex-direction: column; /* Prvky pod sebou */
+    align-items: flex-start; /* Zarovnání prvků vlevo */
+}
+
+.form-title {
+    margin: 0;
+    width: 100%; /* Šířka pro nadpis "Nový pojištěnec" */
+}
+
+/* Styly pro blok s formulářem pro nového pojištěnce */
+.new-insured {
+    margin-top: 20px;
+    margin-left: 2cm; /* Posunutí formuláře o 2 cm od levého okraje */
+    width: calc(100% - 4cm); /* Šířka formuláře - odečtení 4 cm od celkové šířky okna prohlížeče */
+    background-color: white;
+    padding: 10px; /* Zmenšení výšky pro lepší zarovnání */
+    box-sizing: border-box;
+    overflow: hidden; /* Řeší problémy s float */
+    display: flex; /* Použijeme flexbox pro zarovnání vnitřních prvků */
+    flex-direction: column; /* Prvky pod sebou */
+    align-items: center; /* Všechny prvky budou vycentrovány horizontálně */
+
+    /* Přidáme flex-grow, aby se seznam rozšířil na zbývající šířku */
+    justify-content: space-between;
+}
+
+/* Styly pro obrázek v formuláři Nový pojištěnec */
+.pojisteni-image {
+    max-width: 100px; /* Maximální šířka obrázku */
+    height: 100px; /* Specifikuje výšku obrázku na 100px (čtverec) */
+    border: 2px solid #333; /* Černý rámec kolem fotografie */
+    text-align: center;
+    margin-bottom: 20px; /* Odstup mezi obrázkem a seznamem - přesunuto dolů */
+}
+
+.form-list {
+    list-style-type: none;
+    padding: 0;
+    width: auto; /* Šířka pro seznam - přepnuto na auto */
+    display: flex;
+    flex-direction: column; /* Sloupce pod sebou */
+    gap: 10px;
+    align-items: center; /* Vycentrování seznamu horizontálně */
+}
+
+.form-item {
+    width: auto; /* Šířka pro položky - přepnuto na auto */
+    display: flex;
+    flex-direction: column; /* Sloupce pod sebou */
+    gap: 5px;
+    align-items: center; /* Vycentrování položek horizontálně */
+}
+
+.form-item label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    border: 2px solid black;
+    padding: 10px;
+    width: auto; /* Šířka pro vstupy - přepnuto na auto */
+    box-sizing: border-box; /* Řeší problémy s float */
+    clear: both; /* Zajišťuje, že další obsah nebude plavat kolem float */
+}
+
+/* Úprava tlačítka "Uložit" */
+.save-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 40px; /* Zvětšení rámečku */
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px; /* Zaoblené rohy */
+    margin-top: 20px; /* Odsazení od ostatních prvků */
+    align-self: center; /* Tlačítko na středu řádku */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
